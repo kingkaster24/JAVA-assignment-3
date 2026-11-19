@@ -3,9 +3,8 @@
 **Course Code & Title:** CSA0901 — Programming in Java  
 **Course Outcome:** CO3 (Sessions 27–38)  
 **Total Marks:** 50 | **Mode:** Pair Work (Roles: Student A & Student B)  
-**Primary Student (Student A):** Gershon A | **Register Number:** 1924260231  
-**Degree & Branch:** B.Tech Artificial Intelligence and Data Science (AI/DS)  
-**Co-Investigator (Student B):** Collaborative Peer Partner (RA2411003010042)  
+**Primary Student (Student A):** Gershon A | **Register Number:** 1924260231   
+**Co-Investigator (Student B):**  Sugesh P | **Register Number:** (192465039)
 **GitHub Repository Link (Gershon A):** `https://github.com/Gershon-A/CSA09-1924260231-Assignment3`  
 **GitHub Repository Link (Student B):** `https://github.com/Partner-B/CSA09-RA2411003010042-Assignment3`  
 **Document Length:** ~12–15 Academic Page Equivalent (Comprehensive Pair-Work Report)
@@ -26,7 +25,7 @@
 ---
 
 # Table of Individual Contributions (Mandatory Rubric)
-| Question | Student A (Gershon A — 1924260231) | Student B (Partner — RA2411003010042) | Joint Work |
+| Question | Student A (Gershon A — 1924260231) |  sugesh P (192465039) | Joint Work |
 | :--- | :--- | :--- | :--- |
 | **Q1: ATM Simulation** | Throwable hierarchy, catch block ordering logic, finally block contract | 5 failure test paths, stack trace line-by-line autopsy, broader-catch anomaly demo | Failure classification, single `catch(Exception)` trade-off analysis |
 | **Q2: Exam Portal** | Custom hierarchy design, checked vs unchecked rationale, 3-tier propagation path | Chaining verification (`getCause()`), full chained trace, information loss demo | Layer abstraction defense, `StorageDemo.java` completion |
@@ -117,7 +116,7 @@ The `finally` block guarantees execution regardless of whether:
 
 ---
 
-### 3. Student B — Testing, Stack Trace Autopsy & Execution Tracing
+### 3. Sugesh P — Testing, Stack Trace Autopsy & Execution Tracing
 
 #### Five Test Scenarios & Execution Matrix
 | Test Case | Injected Input | Triggered Catch Block | `finally` Executed? | Terminal Status |
@@ -204,7 +203,7 @@ classDiagram
 
 ---
 
-### 2. Student B — Failure Scenarios & Exception Chaining Evidence
+### 2. Student B Sugesh P — Failure Scenarios & Exception Chaining Evidence
 Without exception chaining, re-throwing an exception loses the underlying root cause:
 ```java
 // Anti-Pattern: Lost Root Cause
@@ -308,7 +307,7 @@ try {
 
 ---
 
-### 2. Student B — Design & Correctness of `try-with-resources`
+### 2. Student B Sugesh P— Design & Correctness of `try-with-resources`
 Java 7 introduced `try-with-resources` requiring resources to implement `java.lang.AutoCloseable`.
 
 #### Guaranteed Closing & Reverse Closing Order
@@ -369,7 +368,7 @@ t.start(); // PRINTS: "Thread-0" (JVM invokes clone/pthread_create in native OS)
 
 ---
 
-### 2. Student B — Behavioral Experiments & Scheduler Nondeterminism
+### 2. Student B Sugesh P — Behavioral Experiments & Scheduler Nondeterminism
 Ten consecutive runs of 4 parallel scanner stations yielded varying completion sequences:
 
 | Run Number | Scanner Finish Order | Main Thread Summary Time |
@@ -460,7 +459,7 @@ public class SeatBooking {
 
 ---
 
-### 3. Student B — Synchronization Strategies & Benchmark Comparison
+### 3. Student B (Sugesh P) — Synchronization Strategies & Benchmark Comparison
 *Benchmarking 10,000 bookings under heavy thread contention:*
 
 | Synchronization Technique | Execution Time (10k ops) | Concurrency Granularity | Memory Overhead |
@@ -564,7 +563,7 @@ Sum of tokens collected: 210 (expected 210)
 
 ---
 
-### 3. Student B — Deadlock Recreation & Prevention (Coffman's 4 Conditions)
+### 3. Student B (Sugesh P) — Deadlock Recreation & Prevention (Coffman's 4 Conditions)
 When two students transfer funds between accounts:
 - Thread 1: Transferred $A \rightarrow B$ (Acquires Lock $A$, waits for Lock $B$).
 - Thread 2: Transferred $B \rightarrow A$ (Acquires Lock $B$, waits for Lock $A$).
