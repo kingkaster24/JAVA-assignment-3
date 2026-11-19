@@ -5,8 +5,8 @@
 **Total Marks:** 50 | **Mode:** Pair Work (Roles: Student A & Student B)  
 **Primary Student (Student A):** Gershon A | **Register Number:** 1924260231   
 **Co-Investigator (Student B):**  Sugesh P | **Register Number:** (192465039)
-**GitHub Repository Link (Gershon A):** `https://github.com/Gershon-A/CSA09-1924260231-Assignment3`  
-**GitHub Repository Link (Student B):** `https://github.com/Partner-B/CSA09-RA2411003010042-Assignment3`  
+**GitHub Repository Link (Gershon A):** https://github.com/kingkaster24/JAVA-assignment-3/blob/main/Java_Assignment_3_CO3_Comprehensive_Report.md  
+**GitHub Repository Link (Sugesh P ):** `https://github.com/Partner-B/CSA09-RA2411003010042-Assignment3`  
 **Document Length:** ~12–15 Academic Page Equivalent (Comprehensive Pair-Work Report)
 
 ---
